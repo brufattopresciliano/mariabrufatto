@@ -1,0 +1,305 @@
+.p1{
+	
+	width:100%;
+	height: 100vh;
+}
+.p2{
+	display: flex;
+	flex-direction:row; 
+	flex-wrap: wrap;
+ 
+    align-items: center;
+	width:100%;
+	height: 25%;	
+}
+.logo{
+	display: flex;
+    background-color:#1A7215;
+    width:100%;
+	height: 100%;
+	align-items: flex-start;
+	justify-content:space-between;
+}
+.hestoria{
+	width:15%;
+	height: 45%;
+	background-color:#ffff;
+	margin-top: 4vh;
+	margin-right: 4vh;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	 border-radius: 15px;  
+}
+.voltar{
+	width:30vh;
+	height: 10vh;
+	background-color:#ffff;
+	margin-top: 4vh;
+	margin-right: 4vh;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	 border-radius: 15px
+}
+.p3{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+    align-items: center;
+	width:100%;
+	height: 40%;
+	margin-top:3vh;
+	font-size: 20px;
+}
+.coluna1{
+	width:20%;
+	height: 100%;
+	background-color:#CCEEFF;
+	
+	
+}
+
+.coluna2{
+	width:20%;
+	height: 100%;
+	background-color:#CCEEFF;
+}
+.coluna3{
+	width:20%;
+	height: 100%;
+	background-color:#CCEEFF;
+}
+.coluna4{
+	width:20%;
+	height: 100%;
+	background-color:#CCEEFF;
+	
+}
+.p4{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	width:100%;
+	height:30%;
+	margin-top:3vh;
+}
+.retcol{
+	width:71%;
+	height:90%;
+	background-color:#CCEEFF;
+	font-size: 25px;
+	
+}
+.coluna5{
+	width:20%;
+	height: 90%;/*altura*/
+	background-color:#CCEEFF;
+	
+}
+.p5{
+	
+	width:100%;
+	height: 5%;
+
+}
+.rodape{
+	width:100%;
+	height: 100%;
+	background-color:#1A7215;
+	font-size:30px;
+}
+.pp2{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	width:100%;
+	height:250%;
+	margin-top:3vh;
+}
+.qq1{
+	width:28%;
+	height: 70vh;
+	background-color:#1A7215;
+}
+.qq2{
+	width:28%;
+	height: 70vh;
+	background-color:#1A7215;
+}
+.qq3{
+	width:28%;
+	height: 70vh;
+	background-color:#1A7215;
+}
+.qq4{
+	width:28%;
+	height: 70vh;
+	background-color:#1A7215;
+}
+.qq5{
+	width:28%;
+	height: 70vh;
+	background-color:#1A7215;
+}
+.qq6{
+	width:28%;
+	height: 70vh;
+	background-color:#1A7215;
+}
+.qq7{
+	width:28%;
+	height: 70vh;
+	background-color:#1A7215;
+}
+.qq8{
+	width:28%;
+	height: 70vh;
+	background-color:#1A7215;
+}
+.qq9{
+	width:28%;
+	height: 70vh;
+	background-color:#1A7215;
+}
+h1{
+	color:	#000000;
+    background-color:#A9A9A9;
+	margin-left:50vh;
+	 padding:3vh 1vh 3vh 20vh;
+	 margin-right:40vh;
+}
+@media(max-width: 760px){
+	.p3{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+    	align-items: center;
+		width:100%;
+		height: 70%;
+		margin-top:3vh;
+		font-size: 18px;
+	}
+	.coluna1{
+		width:40%;
+		height: 45%;	
+	}
+	.coluna2{
+		width:40%;
+		height: 45%;
+	}	
+	.coluna3{
+		
+		width:40%;
+		height: 45%;
+	}
+	.coluna4{
+		width:40%;
+		height: 45%;
+	}
+	.coluna5{
+		display: none;
+	}
+	.retcol{
+		width:90%;
+		font-size: 20px;
+
+	}
+	.rodape{
+		font-size:16px;
+	}
+	.logoimg{
+		 height:15vh;	 
+	}
+	.hestoria{
+
+		width:30%;
+		height: 30%;
+	}
+	.pp2{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+    	align-items: center;
+		width:100%;
+		height: 690vh;
+		margin-top:3vh;
+	}
+	.qq1{
+		width: 70vh;
+		height:  70vh;	
+	}
+	.qq2{
+		width: 70vh;
+		height:  70vh;	
+	}
+	.qq3{
+		width: 70vh;
+		height:  70vh;	
+	}
+	.qq4{
+		width: 70vh;
+		height:  70vh;	
+	}
+	.qq5{
+		width: 70vh;
+		height:  70vh;	
+	}
+	.qq6{
+		width: 70vh;
+		height:  70vh;	
+	}
+	.qq7{
+		width: 70vh;
+		height:  70vh;	
+	}
+	.qq8{
+		width: 70vh;
+		height:  70vh;	
+	}
+	.qq9{
+		width: 70vh;
+		height:  70vh;	
+	}
+	.mag1{
+		width:70vh;
+		height:70vh;
+	}
+	.mag2{
+		width:70vh;
+		height:70vh;
+	}
+	.mag3{
+		width:70vh;
+		height:70vh;
+	}
+	.mag4{
+		width:70vh;
+		height:70vh;
+	}
+	.mag5{
+		width:70vh;
+		height:70vh;
+	}
+	.mag6{
+		width:70vh;
+		height:70vh;
+	}
+	.mag7{
+		width:70vh;
+		height:70vh;
+	}
+	.mag8{
+		width:70vh;
+		height:70vh;
+	}
+	.mag9{
+		width:70vh;
+		height:70vh;
+	}	
+	h1{
+		margin-left:10vh;
+		 margin-right:5vh;
+		 padding:3vh 1vh 3vh 10vh;
+	}
+}
